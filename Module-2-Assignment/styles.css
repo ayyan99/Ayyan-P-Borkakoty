@@ -5,7 +5,10 @@ body{
 	font-family: 'Oxygen', sans-serif;
 }
 
-
+.container .jumbotron{
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
 
 #header-nav{
 	background-color: #f6b319;
@@ -14,7 +17,7 @@ body{
 }
 
 #logo-img{
-	background: url('restaurant-logo.png') no-repeat;
+	background: url('restaurant-logo_medium.png') no-repeat;
 	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10px 0;
@@ -95,7 +98,7 @@ body{
 @media (min-width: 1200px){
 
 #logo-img{
-	background: url('restaurant-logo.png') no-repeat;
+	background: url('restaurant-logo_medium.png') no-repeat;
 	width: 100px;
 	height: 100px;
 	margin-left:30px;
@@ -111,7 +114,7 @@ body{
 }
 
 #logo-img{
-	background: url('restaurant-logo.png') no-repeat;
+	background: url('restaurant-logo_medium.png') no-repeat;
 	width: 100px;
 	height: 100px;
 	margin: 5px 5px 5px 0;
@@ -126,7 +129,7 @@ body{
 }
 
 #logo-img{
-	background: url('restaurant-logo.png') no-repeat;
+	background: url('restaurant-logo_medium.png') no-repeat;
 	width: 100px;
 	height: 100px;
 	margin: 5px 5px 5px 0;
@@ -168,4 +171,55 @@ body{
 #collapsable-nav a span{
 	font-size: 1em;
 	margin-right: 5px;
+}
+
+#call-btn > a {
+	font-size: 1.5em;
+	display: block;
+	margin: 0 20px;
+	padding: 10px;
+	border: 2px solid #fff;
+	background-color: #f6b319; 
+	color: #951c49;
+}
+
+#xs-deliver{
+	margin-top: 5px;
+	font-size: .7em;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+@media (min-width: 1200px){
+
+.container .jumbotron{
+	background: url('jumbotron_1200.jpg') no-repeat;
+	height: 675px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.container .jumbotron{
+	background: url('jumbotron_992.jpg') no-repeat;
+	height: 558px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.container .jumbotron{
+	background: url('jumbotron_768.jpg') no-repeat;
+	height: 432px;
+}
+}
+
+@media (max-width: 767px){
+
+.container .jumbotron{
+	margin-top: 30px;
+	padding: 0;
+}
+
 }
