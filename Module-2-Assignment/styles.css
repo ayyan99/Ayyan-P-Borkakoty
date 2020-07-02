@@ -214,7 +214,7 @@ body{
 @media (min-width: 992px) and (max-width: 1199px) {
 
 body{
-	margin-left: 30px
+	margin-left: 0px;
 }
 
 #logo-img{
@@ -229,7 +229,7 @@ body{
 @media (min-width: 768px) and (max-width: 991px) {
 
 body{
-	margin-left: 30px
+	margin-left: 0px;
 }
 
 #logo-img{
@@ -244,7 +244,7 @@ body{
 @media (max-width: 767px){
 
 body{
-	margin-left: 30px
+	margin-left: 0px;
 }
 .navbar-brand{
 	padding-top: 10px;
@@ -371,6 +371,6 @@ body{
 }
 
 body{
-	margin-left: 0;
+	margin-left: 0px;
 }	
 }
