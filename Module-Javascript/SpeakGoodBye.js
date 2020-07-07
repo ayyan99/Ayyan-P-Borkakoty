@@ -4,13 +4,14 @@
 // STEP 6: Wrap the entire contents of SpeakGoodBye.js inside of an IIFE
 // See Lecture 52, part 2
 
-(function () {
-var  = byeSpeaker {};
+(function (window) {
+var byeSpeaker = {};
 var speakWord = "Good Bye";
 byeSpeaker.speak = function (name) {
   console.log(speakWord + " " + name);
 }
-})()
+window.byeSpeaker = byeSpeaker;
+})(window);
 
 
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
@@ -27,4 +28,7 @@ byeSpeaker.speak = function (name) {
 
 // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
 // 'byeSpeaker' on the global scope as well.
+
+// xxxx.xxxx = helloSpeaker;
+
 // xxxx.xxxx = byeSpeaker;
