@@ -20,7 +20,7 @@ var insertHtml = function (selector,html) {
 	targetElem.innerHTML = html;
 };
 
-ar showLoading = function (selector) {
+var showLoading = function (selector) {
 	var html = "<div class='text-center'>";
 	html += "<img src='ajax-loader.gif'></div>";
 	insertHtml(selector, html);
