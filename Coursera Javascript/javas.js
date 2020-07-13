@@ -1,3 +1,3 @@
 function dispdate() {
-	document.getElementById("demo").innerHTML = Date();
+	document.getElementByTag("body").innerHTML = Date();
 }
