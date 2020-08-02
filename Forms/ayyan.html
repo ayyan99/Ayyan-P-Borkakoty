@@ -11,13 +11,55 @@
 </head>
 <body>
 <form>
+
 <legend>Personal Information</legend>
+
 <label for='name'>Name</label>
 <input type='text' id='name' name="name"><br>
-<label>Email: <input type='email' name="email"></label><br>
+
+<label>Email: <input type='email' id="email1" name="email" required></label><br>
+
+<label>Confirm Email: <input type='email' id="email2" name="repeat_email" required onchange="check()"></label><br>
+
+<label>Enter a Number: <input type='text' name="number" pattern="[0-9]{5}" required></label><br>
+
 <label for='birth'>Date of Birth</label>
 <input type='date' id='birth' value="birth"><br>
-<input type='submit' value="Click Here"><br>
+
+
+
+<br><br>
+
+<!--checkboxes -->
+<label><input type='checkbox' name="food" value="pizza">Pizza</label><br>
+<label><input type='checkbox' name="food" value="burger">Burger</label><br>
+<label><input type='checkbox' name="food" value="chips">Chips</label><br>
+<label><input type='checkbox' name="food" value="momo">Momo</label><br>
+<!--checkboxes end here-->
+
+<br><br>
+
+<!--radioboxes -->
+<label><input type='radio' name="gender" value="male" checked="true">Male</label><br>
+<label><input type='radio' name="gender" value="female">Female</label><br>
+<label><input type='radio' name="gender" value="other">Others</label><br>
+<!--radioboxes end here-->
+
+<br><br>
+
+
+<label for='yesnick'>Nickname?</label>
+<input type='checkbox' value="yes" id="yesnick" name="yesnick" onchange="nicknames()"><br>
+
+
+
+<div id="nick">
+<label for='nicks'>Nickname:</label>
+<input type='text' id="nicks" name="nicks"><br>
+</div>
+
+<input type='submit' value="Verify"><br>
 </form>
+
 </body>
 </html>
