@@ -8,8 +8,11 @@ body{
 
 .navbar-inverse{
 	background: rgba(0,0,0,0.7);	
+	width:100%;
+	position: relative;
 }
-/*
+
+
 .text{
 	width:100%;
 	margin-top: 210px;
@@ -20,26 +23,29 @@ body{
 
 .text h4{
 	color:black;
-	font-size:40px;
+	font-size:30px;
 	font-weight:bold;
 }
+
 
 .text h1{
 	color:black;
-	font-size:70px;
+	font-size:50px;
 	font-weight:bold;
 }
 
+
+
 .text h3{
 	color:black;
-	font-size:20px;
+	font-size:15px;
 	font-weight:bold;
 	margin-bottom:20px;
 }
 
 #btn1{
 	padding:10px;
-	font-size:15px;
+	font-size:10px;
 	font-weight:bold;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
@@ -49,13 +55,14 @@ body{
 
 #btn2{
 	padding:10px;
-	font-size:15px;
+	font-size:10px;
 	font-weight:bold;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	background:white;
 	border:2px solid black;
 }
+
 
 #title ul li{
 	font-family: 'Montserrat', sans-serif;
@@ -73,5 +80,4 @@ body{
 	font-weight:bold;
 	line-height: 65px;
 }
-
 */
