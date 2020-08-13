@@ -1,6 +1,8 @@
 body{
 	background: url("img/intro-bg_1.jpg");
-	
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 .navbar-inverse{
