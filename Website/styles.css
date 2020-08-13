@@ -1,7 +1,7 @@
 body{
 	background: url("img/intro-bg_1.jpg");
 	background-repeat: no-repeat;
-
+	background-position: center center;
 	background-attachment: fixed;
 }
 
@@ -42,7 +42,6 @@ body{
 	font-weight:bold;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	margin-right:10px;
 	background:white;
 	border:2px solid black;
 }
@@ -60,7 +59,7 @@ body{
 #title ul li{
 	font-family: 'Montserrat', sans-serif;
 	list-style: none;
-	font-size:10px;
+	font-size:15px;
 	color: white;	
 	font-weight: bold;
 	text-transform: uppercase;
