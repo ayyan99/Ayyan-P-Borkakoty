@@ -1,0 +1,83 @@
+body{
+	background: url("img/intro-bg_1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover; 
+	background-attachment: fixed;
+}
+
+.navbar-inverse{
+	background: rgba(0,0,0,0.7);	
+	width:100%;
+	position: relative;
+}
+
+
+.text{
+	width:100%;
+	margin-top: 210px;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.text h4{
+	color:black;
+	font-size:30px;
+	font-weight:bold;
+}
+
+
+.text h1{
+	color:black;
+	font-size:50px;
+	font-weight:bold;
+}
+
+
+
+.text h3{
+	color:black;
+	font-size:15px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+#btn1{
+	padding:10px;
+	font-size:10px;
+	font-weight:bold;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	background:white;
+	border:2px solid black;
+}
+
+#btn2{
+	padding:10px;
+	font-size:10px;
+	font-weight:bold;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	background:white;
+	border:2px solid black;
+}
+
+
+#title ul li{
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	font-size:15px;
+	color: white;	
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.navbar-header a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	color:white;
+	font-weight:bold;
+	line-height: 65px;
+}
+*/
