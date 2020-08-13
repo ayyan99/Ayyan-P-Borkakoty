@@ -1,5 +1,6 @@
 body{
-	background: url("img/intro-bg_1.jpg")
+	background: url("img/intro-bg_1.jpg");
+	width:100%;
 }
 
 .navbar-inverse{
