@@ -1,6 +1,9 @@
 body{
 	background: url("img/intro-bg_1.jpg");
-	width:100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 
 .navbar-inverse{
